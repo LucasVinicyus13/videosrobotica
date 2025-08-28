@@ -5,6 +5,14 @@ body {
   font-family: "Chakra Petch", sans-serif; /* Altera a fonte do texto como "Chakra Petch", se disponível, ou então usa uma fonte sans-serif padrão */
   margin-bottom: 100px; /* Define uma margem inferior de 100px (afastamento do conteúdo da parte inferior da página) */
 }
+
+header {
+  border-bottom: solid 2px rgb(42, 122, 228);
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(42,122, 228);
+}
+
 .chamada {
     background: rgb(184, 156, 213);  /* Cor de fundo lilás */
     padding-bottom: 80px;  /* Espaçamento inferior de 80px */
@@ -23,4 +31,30 @@ h1 {
 
 p {
     font-size: 20px;  /* Tamanho de fonte de 20px para os parágrafos */
+}
+
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px:
+}
+
+.categorias-videos img {
+  opacity: 0.5;
+  height: 200px;
+}
+
+.categorias-videos img:hover {
+  opacity: 1.0;
+  border: 3px solid green;
+}
+
+.categoria h2 {
+  color: rgb(42,122,228);
 }
